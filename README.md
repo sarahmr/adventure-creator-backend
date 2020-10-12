@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Adventure Creator is an interactive fiction app. Users can write, share, and play stories, as well as leave reviews on stories.
 
-Things you may want to cover:
+Frontend: https://github.com/sarahmr/adventure-creator-frontend
 
-* Ruby version
+DEMO:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[![Adventure Creator Demo Video](http://img.youtube.com/vi/9UvM23tCceg/0.jpg)](http://www.youtube.com/watch?v=9UvM23tCceg)
