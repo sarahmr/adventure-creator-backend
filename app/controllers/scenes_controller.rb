@@ -19,6 +19,6 @@ class ScenesController < ApplicationController
   private
 
   def scene_params
-    params.require(:scene).permit(:story_id, :title, :text, paths: [:scene_id, :choice_text])
+    params.require(:scene).permit(:story_id, :title, :text, paths: [:scene_id, :choice_text], position: [:left, :top])
   end
 end
