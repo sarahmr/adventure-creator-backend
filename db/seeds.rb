@@ -67,7 +67,11 @@ Scene.create([
         "scene_id": 3,
         "choice_text": "Walk through the Front Door"
       }
-    ]
+    ],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Yard",
@@ -82,7 +86,11 @@ Scene.create([
         "scene_id": 3,
         "choice_text": "Explore the House"
       }
-    ]
+    ],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Inside the House",
@@ -97,25 +105,41 @@ Scene.create([
         "scene_id": 6,
         "choice_text": "Go into the Living Room"
       }
-    ]
+    ],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Cellar",
     story_id: 1,
     text: "You open the doors and walk down into the cellar. It's dark and you can't see where you're going. You know that this type of cellar often has a lightbulb with a string in the middle of the room, so you walk forward with your arms outstretched. You encounter something sticky and find yourself trapped. The light turns on and you see that you're stuck in some kind of giant spider web. Looking around you see several long logs of web and you know your fate.",
-    paths: []
+    paths: [],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Kitchen",
     story_id: 1,
     text: "It's always a good idea to start in the kitchen, right? Feeling a bit hungry you decide to see what's in the fridge. You reach in and feel a tug that starts in the bottom of your stomach. You're pulled through the open door and find yourself floating in space. Looking around you see a few others playing rock, paper, scissors. They wave you over saying 'Welcome to your new life.'",
-    paths: []
+    paths: [],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Living Room",
     story_id: 1,
     text: "Turning left, you enter the living room. In the middle of the room, with couches in a semi-circle in front, there is a fireplace. You walk closer and look inside. You find yourself on a street looking at a house. Even though you feel pulled toward it, your stomach growls and you keep walking, headed towards your home and dinner.",
-    paths: []
+    paths: [],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Morning", 
@@ -130,7 +154,11 @@ Scene.create([
         "scene_id": 9,
         "choice_text": "Take the Door on the Right"
       }
-    ]
+    ],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Stairs Down the Tower", 
@@ -145,7 +173,11 @@ Scene.create([
         "scene_id": 10,
         "choice_text": "Leave the Castle"
       }
-    ]
+    ],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Hallway to the Library", 
@@ -156,24 +188,40 @@ Scene.create([
         "scene_id": 12,
         "choice_text": "Jump"
       }
-    ]
+    ],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Leave the Castle", 
     story_id: 2,
     text: "Quickly you walk to the doors and struggle to pull one open. You run outside and sprint across the drawbridge. You hear someone running behind you, getting closer. You push yourself, trying to run faster, but you have nothing left to give. Someone grabs you and covers your nose and mouth with cloth. The next thing you see is a four-poster bed in a tower. This time there's one door and it's locked.",
-    paths: []
+    paths: [],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Dining Room", 
     story_id: 2, 
     text: "The smell of bacon draws you into the dining room. You sit down in the chair that someone is holding out for you. 'Coffee, lady?' 'Yes, please.' As coffee and a warm plate are set down before you, you decide to stay. You may not remember who you are or why you're there, but it seems like a nice place to be.",
-    paths: []
+    paths: [],
+    position: {
+      left: 0,
+      top: 0
+    }
   },
   {
     title: "Take the Window", 
     story_id: 2,
     text: "Panicking, you run to the window and leap. For three long seconds you fall, arms outstretched, looking out over the lake. Desperately, you flap your arms and you stop falling. You flap again and move forward towards the lake. Looking left and right, you stop flapping and take in your new wings. As you start to fall, you get over your shock and fly away, free.",
-    paths: []
+    paths: [],
+    position: {
+      left: 0,
+      top: 0
+    }
   }
 ])
