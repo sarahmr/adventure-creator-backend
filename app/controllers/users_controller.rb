@@ -47,6 +47,16 @@ class UsersController < ApplicationController
     render json: { user: user, image: "https://www.gravatar.com/avatar/#{user.image_hash}?d=robohash" }
   end
 
+  def update
+    user = User.find(params[:id])
+
+    bio = params[:bio]
+
+    user.bio = bio
+
+    render json: user
+  end
+
   private
 
   def user_params
